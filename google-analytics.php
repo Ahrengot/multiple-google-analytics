@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Easy Google Analytics
-Description: Minimalistic <a href="http://www.google.com/analytics/">Google Analytics</a> plugin that lets you add one or more trackers and control exactly how the script is printed.
+Plugin Name: Multiple Google Analytics
+Description: Simple <a href="http://www.google.com/analytics/">Google Analytics</a> plugin that lets you add one or more trackers and control exactly how the script is printed.
 Version: 1.0.0
 Author: Jens Ahrengot Boddum
 Author URI: http://ahrengot.com/

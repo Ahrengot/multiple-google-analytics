@@ -1,4 +1,4 @@
-=== Easy Google Analytics ===
+=== Multiple Google Analytics ===
 Contributors: Jens Ahrengot Boddum
 Tags: Google Analytics
 Requires at least: 4.0
@@ -30,7 +30,7 @@ If you need to pull the ids from the database in any other context you can use `
 
 == Installation ==
 
-1. Upload `ahr-google-analytics` directory to the `/wp-content/plugins/` directory OR search for 'Easy Google Analytics'
+1. Upload `ahr-google-analytics` directory to the `/wp-content/plugins/` directory OR search for ‘Multiple Google Analytics'
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add one or more web property IDs (UA-XXXXXXX-X strings) on the settings page
 
