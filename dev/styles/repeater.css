@@ -1,0 +1,32 @@
+.ahr-repeater {
+  margin-bottom: 3.5em;
+}
+
+.ahr-table + .btn-add {
+  margin-top: 1rem;
+}
+
+.ahr-repeater-row-content input,
+.ahr-repeater-row-content .row-value {
+  width: calc(100% - 48px);
+  height: 30px;
+}
+
+.ahr-repeater-row-content .btn-delete {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 8px;
+
+  background: transparent;
+  border: thin solid #bbb;
+  border-radius: 30px;
+
+  transition: all 0.35s cubic-bezier( 0.19, 1, 0.22, 1 );
+}
+
+.ahr-repeater-row-content .btn-delete:hover {
+  background-color: #444;
+  color: white;
+  border-color: #444;
+}

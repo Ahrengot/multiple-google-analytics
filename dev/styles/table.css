@@ -1,0 +1,35 @@
+.ahr-table {
+  border: thin solid #DFDFDF;
+  background: white;
+  border-spacing: 0;
+  border-radius: 0;
+  table-layout: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.ahr-table thead th,
+.ahr-table tbody td,
+.ahr-table tbody th {
+  padding: 8px;
+  vertical-align: top;
+  background: white;
+
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.4em;
+
+  border-style: solid;
+  border-color: #E1E1E1;
+  border-width: 0 0 1px 1px;
+}
+
+.ahr-table th:first-child {
+  border-left: none;
+}
+
+.ahr-table tbody tr:last-child th,
+.ahr-table tbody tr:last-child td {
+  border-bottom: none;
+}

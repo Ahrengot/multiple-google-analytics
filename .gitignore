@@ -1,0 +1,3 @@
+dev/node_modules
+dev/node_debug.log
+assets/*.js.map
