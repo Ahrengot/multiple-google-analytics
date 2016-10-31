@@ -133,7 +133,7 @@ class AhrGoogleAnalytics {
           'name'              => self::OPTION_LOCATION,
           'hook_name'         => self::PLUGIN_NAME,
           'default_hook_info' => __( "Determines which WordPress action is used to print the Google Analytics script. <code>wp_head</code> outputs the Google Analytics script in the &lt;head&gt; section. <code>wp_footer</code> outputs the script just before the closing &lt;/body&gt; tag.", "ahr" ),
-          'custom_hook_info'  => sprintf( __("This is a custom hook you can use to print the analytics script if, for some reason, your theme doesn't call wp_head() or wp_footer(). To print the Google Analtyics script manually, add the following line somewhere in your theme code. Preferably within the &lt;body&gt; element.<br><br><code>do_action( '%s' );</code>", "ahr"), self::PLUGIN_NAME )
+          'custom_hook_info'  => sprintf( __("This is a custom hook you can use to print the analytics script if, for some reason, your theme doesn't call wp_head() or wp_footer(). To print the Google Analytics script manually, add the following line somewhere in your theme code. Preferably within the &lt;body&gt; element.<br><br><code>do_action( '%s' );</code>", "ahr"), self::PLUGIN_NAME )
         )
       )
     );
