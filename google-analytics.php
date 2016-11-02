@@ -1,10 +1,14 @@
 <?php
 /*
 Plugin Name: Multiple Google Analytics
-Description: Simple <a href="http://www.google.com/analytics/">Google Analytics</a> plugin that lets you add one or more trackers and control exactly how the script is printed.
+Plugin URI: https://github.com/Ahrengot/easy-google-analytics
+Description: Minimal Google Analytics plugin that let's you set up multiple trackers and fully control when and where the analytics script is rendered.
 Version: 1.0.0
 Author: Jens Ahrengot Boddum
 Author URI: http://ahrengot.com/
+Text Domain: ahr
+Domain Path: /lang/
+License: GPL v3
 */
 
 class AhrGoogleAnalytics {
