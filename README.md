@@ -1,5 +1,6 @@
-# Multiple Google Analytics
+# Multiple Google Analytics for WordPress
 ![Plugin thumbnail](http://i.imgur.com/YLLCWFL.png)
+
 Minimalistic [Google Analytics](http://www.google.com/analytics/) plugin that lets you add one or more trackers and control exactly how the script is rendered.
 
 -----------------------
@@ -9,10 +10,10 @@ Minimalistic [Google Analytics](http://www.google.com/analytics/) plugin that le
 
 ## Screenshots
 ![Default settings](http://i.imgur.com/OoF17nC.png)
-**Default settings with 1 tracker and the script printed in `wp_footer()`**
+*Default settings with 1 tracker and the script printed in `wp_footer()`*
 
 ![Using multiple trackers and custom action](http://i.imgur.com/FMWVbHp.png)
-**Using multiple trackers and the custom hook for printing the script**
+*Using multiple trackers and the custom hook for printing the script*
 
 ## What is printed?
 Let's say you have 2 trackers `UA-00000000-1` and `UA-00000000-2`. Here's what the plugin will print on the page (via [/frontend/ga-script.php](https://github.com/Ahrengot/multiple-google-analytics/blob/master/frontend/ga-script.php)):
