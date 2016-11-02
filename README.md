@@ -1,17 +1,17 @@
 # Multiple Google Analytics
-![Plugin thumbnail](https//ps.w.org/multi-google-analytics/assets/icon-256x256.png)
+![Plugin thumbnail](http://i.imgur.com/YLLCWFL.png)
 Minimalistic [Google Analytics](http://www.google.com/analytics/) plugin that lets you add one or more trackers and control exactly how the script is rendered.
 
 -----------------------
 
-* WordPress repository: https://github.com/Ahrengot/multiple-google-analytics
+* WordPress repository: https://wordpress.org/plugins/multi-google-analytics/
 * Readme : https://github.com/Ahrengot/multiple-google-analytics/blob/master/readme.txt
 
 ## Screenshots
-![Default settings](https://ps.w.org/multi-google-analytics/assets/screenshot-1.png)
+![Default settings](http://i.imgur.com/OoF17nC.png)
 **Default settings with 1 tracker and the script printed in `wp_footer()`**
 
-![Using multiple trackers and custom action](https://ps.w.org/multi-google-analytics/assets/screenshot-2.png)
+![Using multiple trackers and custom action](http://i.imgur.com/FMWVbHp.png)
 **Using multiple trackers and the custom hook for printing the script**
 
 ## What is printed?
