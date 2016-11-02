@@ -3,8 +3,6 @@ Minimalistic [Google Analytics](http://www.google.com/analytics/) plugin that le
 
 Wordpress.org Plugin page: https://wordpress.org/plugins/multi-google-analytics/
 
-![Plugin thumbnail](http://i.imgur.com/YLLCWFL.png)
-
 ## Screenshots
 ![Default settings](http://i.imgur.com/OoF17nC.png)
 *Default settings with 1 tracker and the script printed in `wp_footer()`*
