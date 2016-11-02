@@ -1,4 +1,4 @@
-# Multiple Google Analytics for WordPress
+# Multiple Google Analytics trackers for WordPress
 Minimalistic [Google Analytics](http://www.google.com/analytics/) plugin that lets you add one or more trackers and control exactly how the script is rendered.
 
 Wordpress.org Plugin page: https://wordpress.org/plugins/multi-google-analytics/
