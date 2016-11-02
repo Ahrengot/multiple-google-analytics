@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Analytics plugin\n"
+"POT-Creation-Date: 2016-10-31 10:56+0100\n"
+"PO-Revision-Date: 2016-10-31 10:57+0100\n"
+"Last-Translator: Jens Ahrengot Boddum <jens@ahrengot.com>\n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext;_n:1,2;__ngettext_noop;_n_noop:1,2;"
+"_x:1,2c;_nx:1,2;_nx_noop:1,2;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;"
+"esc_html_e;esc_html_x;_c;_nc\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: dev/node_modules\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: admin/activation-notice.php:3
+#, php-format
+msgid ""
+"Remember to <a href=\"%s\">add a Google Analytics id</a> or your visitors "
+"won't be tracked."
+msgstr ""
+"Husk at <a href=\"%s\">tilføje et Google Analytics id</a> ellers bliver dine "
+"brugere ikke tracket."
+
+#: admin/options.php:7 google-analytics.php:80 google-analytics.php:81
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/options.php:13
+msgid "Property ID's"
+msgstr "Konto ID’er"
+
+#: admin/options.php:20
+msgid "Script rendering"
+msgstr "Indsættelse af script"
+
+#: admin/options.php:23
+msgid "WordPress action"
+msgstr "WordPress action"
+
+#: google-analytics.php:55
+#, php-format
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Indstillinger</a>"
+
+#: google-analytics.php:110
+msgid ""
+"Invalid format for property id. Format should be <code>UA-00000000-0</code>"
+msgstr ""
+"Ugyldigt format for konto id. Formatet skal være <code>UA-00000000-0</code>"
+
+#: google-analytics.php:125
+msgid "Property ID"
+msgstr "Konto ID"
+
+#: google-analytics.php:126
+msgid "Add new property"
+msgstr "Tilføj ny konto"
+
+#: google-analytics.php:127
+msgid "Delete property"
+msgstr "Slet konto"
+
+#: google-analytics.php:135
+msgid ""
+"Determines which WordPress action is used to print the Google Analytics "
+"script. <code>wp_head</code> outputs the Google Analytics script in the &lt;"
+"head&gt; section. <code>wp_footer</code> outputs the script just before the "
+"closing &lt;/body&gt; tag."
+msgstr ""
+"Bestemmer hvilken WordPress action, som bruges til at indsætte Google "
+"Analytics-scriptet. <code>wp_head</code> sætter analytics-scriptet ind i "
+"sidens &lt;head&gt;-sektion. <code>wp_footer</code> indsætter koden lige før "
+"det afsluttende &lt;/ body&gt; tag."
+
+#: google-analytics.php:136
+#, php-format
+msgid ""
+"This is a custom hook you can use to print the analytics script if, for some "
+"reason, your theme doesn't call wp_head() or wp_footer(). To print the "
+"Google Analytics script manually, add the following line somewhere in your "
+"theme code. Preferably within the &lt;body&gt; element."
+"<br><br><code>do_action( '%s' );</code>"
+msgstr ""
+"Dette er en speciel hook, som du kan bruge til manuelt at indsætte analytics-"
+"scriptet hvis dit tema, af den ene eller af den anden grund, ikke kalder "
+"wp_head() eller wp_footer(). Hvis du manuelt vil indsætte Google Analtyics "
+"scriptet, så skal du blot tilføje følgende linje et sted i din theme-kode. "
+"Fortrinsvis inden for &lt;body&gt;-elementet.<br><br><code>do_action( '%s' );"
+"</code>"
+
+#~ msgid ""
+#~ "This is a custom hook you can use to print the analytics script if, for "
+#~ "some reason, your theme doesn't call wp_head() or wp_footer(). To print "
+#~ "the Google Analtyics script manually, add the following line somewhere in "
+#~ "your theme code. Preferably within the &lt;body&gt; element."
+#~ "<br><br><code>do_action( '%s' );</code>"
+#~ msgstr ""
+#~ "Dette er en brugerdefineret hook, du kan bruge til manuelt at indsætte "
+#~ "analytics-scriptet, hvis dit tema, af den ene eller af  den anden grund, "
+#~ "ikke kalder wp_head() eller wp_footer(). Hvis du manuelt vil indsætte "
+#~ "Google Analtyics scriptet, så skal du blot tilføje følgende linje et sted "
+#~ "i din theme-kode. Fortrinsvis inden for &lt;body&gt;-elementet."
+#~ "<br><br><code>do_action( '%s' );</code>"
+
+#~ msgid ""
+#~ "This is a custom hook you can use to print the analytics script if, for "
+#~ "some reason, your theme doesn't call wp_head() or wp_footer(). To print "
+#~ "the Google Analtyics script manually, add the following line somewhere in "
+#~ "your theme code. Preferably within the &lt;body&gt; element."
+#~ "<br><br><code>&lt;?php do_action( '%s' ); ?&gt;</code>"
+#~ msgstr ""
+#~ "Dette er en brugerdefineret hook, du kan bruge til manuelt at indsætte "
+#~ "analytics-scriptet, hvis dit tema, af den ene eller af  den anden grund, "
+#~ "ikke kalder wp_head() eller wp_footer(). Hvis du manuelt vil indsætte "
+#~ "Google Analtyics scriptet, så skal du blot tilføje følgende linje et sted "
+#~ "i din theme-kode. Fortrinsvis inden for &lt;body&gt;-elementet."
+#~ "<br><br><code><?php do_action( '%s' ); ?></code>"
+
+#~ msgid "WordPress Action"
+#~ msgstr "WordPress action"
+
+#~ msgid "Action"
+#~ msgstr "WordPress Action"
+
+#~ msgid "Output action"
+#~ msgstr "Output action"
+
+#~ msgid ""
+#~ "Remember to add your Google Analytics id or your visitors won't be "
+#~ "tracked."
+#~ msgstr ""
+#~ "Husk at føje dit Google Analytics id ellers vil dine besøgende ikke blive "
+#~ "tracket."

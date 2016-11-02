@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Multiple Google Analytics
-Plugin URI: https://github.com/Ahrengot/easy-google-analytics
+Plugin URI: https://github.com/Ahrengot/multiple-google-analytics
 Description: Minimal Google Analytics plugin that let's you set up multiple trackers and fully control when and where the analytics script is rendered.
 Version: 1.0.0
 Author: Jens Ahrengot Boddum
 Author URI: http://ahrengot.com/
-Text Domain: ahr
+Text Domain: multi-google-analytics
 Domain Path: /lang
 License: GPL v3
 */
@@ -21,7 +21,7 @@ class AhrGoogleAnalytics {
 
   public function __construct() {
     add_action('plugins_loaded', function() {
-      load_plugin_textdomain( 'ahr', false, basename( dirname( __FILE__ ) ) . '/lang/' );
+      load_plugin_textdomain( 'multi-google-analytics', false, basename( dirname( __FILE__ ) ) . '/lang/' );
     });
     $this->init();
   }
@@ -58,7 +58,7 @@ class AhrGoogleAnalytics {
 
   public function plugin_action_links($links) {
     $links[] = sprintf(
-      __( '<a href="%s">Settings</a>', 'ahr' ),
+      __( '<a href="%s">Settings</a>', 'multi-google-analytics' ),
       admin_url( 'options-general.php?page=' . AhrGoogleAnalytics::OPTIONS_PAGE_SLUG )
     );
 
@@ -83,8 +83,8 @@ class AhrGoogleAnalytics {
 
   public function add_menu_item() {
     add_options_page(
-      __('Google Analytics', 'ahr'),
-      __('Google Analytics', 'ahr'),
+      __('Google Analytics', 'multi-google-analytics'),
+      __('Google Analytics', 'multi-google-analytics'),
       'manage_options',
       self::OPTIONS_PAGE_SLUG,
       array($this, 'render_options_page')
@@ -113,7 +113,7 @@ class AhrGoogleAnalytics {
     if ( !empty($properties) ){
       foreach ($properties as $property_id) {
         if (!preg_match( '/^UA-[0-9]{8}-[0-9]{1}$/', $property_id ) ) {
-          add_settings_error(self::OPTION_IDS, esc_attr('settings_updated'), __('Invalid format for property id. Format should be <code>UA-00000000-0</code>', 'ahr'), 'error');
+          add_settings_error(self::OPTION_IDS, esc_attr('settings_updated'), __('Invalid format for property id. Format should be <code>UA-00000000-0</code>', 'multi-google-analytics'), 'error');
         }
         break;
       }

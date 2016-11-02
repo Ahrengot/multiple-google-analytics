@@ -4,7 +4,7 @@
 ?>
 
 <div class="wrap">
-  <h1><?php _e('Google Analytics', 'ahr'); ?></h1>
+  <h1><?php _e('Google Analytics', 'multi-google-analytics'); ?></h1>
   <form method="post" action="options.php">
     <?php settings_fields( AhrGoogleAnalytics::PLUGIN_NAME ); ?>
     <?php do_settings_sections( AhrGoogleAnalytics::PLUGIN_NAME ); ?>
@@ -20,7 +20,7 @@
       <h2 class="title"><?php _e("Script rendering", "ahr"); ?></h2>
       <table id="<?php echo AhrGoogleAnalytics::PLUGIN_NAME . AhrGoogleAnalytics::OPTION_LOCATION; ?>" class="form-table">
         <tr valign="top">
-          <th scope="row"><?php _e('WordPress action', 'ahr'); ?></th>
+          <th scope="row"><?php _e('WordPress action', 'multi-google-analytics'); ?></th>
           <td>
             <select name="<?php echo AhrGoogleAnalytics::OPTION_LOCATION; ?>">
               <?php $options = array('wp_head', 'wp_footer', AhrGoogleAnalytics::PLUGIN_NAME); foreach ($options as $option) : ?>
