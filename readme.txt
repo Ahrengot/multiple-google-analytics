@@ -1,6 +1,6 @@
 === Multiple Google Analytics ===
 Contributors: Jens Ahrengot Boddum
-Tags: Google Analytics
+Tags: analytics, Google Analytics, ecommerce tracking, ga, google, statistics, stats, tracking
 Requires at least: 4.0
 Tested up to: 4.6.1
 Stable tag: 1.0.0
