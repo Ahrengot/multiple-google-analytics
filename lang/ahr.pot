@@ -1,0 +1,96 @@
+# Copyright (C) 2016 Multiple Google Analytics
+# This file is distributed under the same license as the Multiple Google Analytics package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multiple Google Analytics 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/multi-google-"
+"analytics\n"
+"POT-Creation-Date: 2016-11-02 14:39:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/activation-notice.php:3
+msgid ""
+"Remember to <a href=\"%s\">add a Google Analytics id</a> or your visitors "
+"won't be tracked."
+msgstr ""
+
+#: admin/options.php:7 google-analytics.php:84 google-analytics.php:85
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/options.php:13
+msgid "Property ID's"
+msgstr ""
+
+#: admin/options.php:20
+msgid "Script rendering"
+msgstr ""
+
+#: admin/options.php:23
+msgid "WordPress action"
+msgstr ""
+
+#: google-analytics.php:59
+msgid "<a href=\"%s\">Settings</a>"
+msgstr ""
+
+#: google-analytics.php:114
+msgid ""
+"Invalid format for property id. Format should be <code>UA-00000000-0</code>"
+msgstr ""
+
+#: google-analytics.php:129
+msgid "Property ID"
+msgstr ""
+
+#: google-analytics.php:130
+msgid "Add new property"
+msgstr ""
+
+#: google-analytics.php:131
+msgid "Delete property"
+msgstr ""
+
+#: google-analytics.php:139
+msgid ""
+"Determines which WordPress action is used to print the Google Analytics "
+"script. <code>wp_head</code> outputs the Google Analytics script in the &lt;"
+"head&gt; section. <code>wp_footer</code> outputs the script just before the "
+"closing &lt;/body&gt; tag."
+msgstr ""
+
+#: google-analytics.php:140
+msgid ""
+"This is a custom hook you can use to print the analytics script if, for some "
+"reason, your theme doesn't call wp_head() or wp_footer(). To print the "
+"Google Analytics script manually, add the following line somewhere in your "
+"theme code. Preferably within the &lt;body&gt; element."
+"<br><br><code>do_action( '%s' );</code>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Multiple Google Analytics"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Ahrengot/easy-google-analytics"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Minimal Google Analytics plugin that let's you set up multiple trackers and "
+"fully control when and where the analytics script is rendered."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jens Ahrengot Boddum"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ahrengot.com/"
+msgstr ""
