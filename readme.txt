@@ -44,4 +44,7 @@ This plugin will always give you an array of ids. Even if you just have one.
 == Changelog ==
 
 = 1.0.0 =
+
+Release Date: November 2nd, 2016
+
 * Initial release. Yay!
