@@ -7,7 +7,7 @@ Version: 1.0.0
 Author: Jens Ahrengot Boddum
 Author URI: http://ahrengot.com/
 Text Domain: ahr
-Domain Path: /lang/
+Domain Path: /lang
 License: GPL v3
 */
 
@@ -20,7 +20,9 @@ class AhrGoogleAnalytics {
   const OPTION_LOCATION = 'ahr_ga_location';
 
   public function __construct() {
-    load_plugin_textdomain( 'ahr', false, trailingslashit( basename( dirname( __FILE__ ) ) ) . 'lang' );
+    add_action('plugins_loaded', function() {
+      load_plugin_textdomain( 'ahr', false, basename( dirname( __FILE__ ) ) . '/lang/' );
+    });
     $this->init();
   }
 

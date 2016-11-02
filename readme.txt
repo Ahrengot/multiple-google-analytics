@@ -1,9 +1,10 @@
 === Multiple Google Analytics ===
-Contributors: Jens Ahrengot Boddum
+Contributors: Ahrengot
 Tags: analytics, Google Analytics, ecommerce tracking, ga, google, statistics, stats, tracking
 Requires at least: 4.0
 Tested up to: 4.6.1
 Stable tag: 1.0.0
+License: GPL v3
 
 Add one or more Google Analytics trackers to your website.
 
@@ -18,17 +19,26 @@ There's also a filter available, if you want to completely override the code tha
 
 The filter for overriding the script code is `ahr-google-analtyics/script_file_path` and you'd use it like so: 
 
-```add_filter('ahr-google-analtyics/script_file_path', function($default_path){
-    // return an absolute file path to the file you want to use for rendering the script
-}, 10, 1);
-```
+    add_filter('ahr-google-analtyics/script_file_path', function($default_path){
+        // return an absolute file path to the file you want to use for rendering the script
+    }, 10, 1);
 
 = Accessing the property ids via code =
 If you need to manipulate the Google Analytics property ids before they are printed, then use the `ahr-google-analtyics'/property_ids` filter. It'll pass you an array of property ids as its single argument.
 
 If you need to pull the ids from the database, in any other context, you can use `$property_ids = get_option( AhrGoogleAnalytics::OPTION_IDS );`
 
-This plugin will always give you an array of ids. Even if you just have one. 
+This plugin will always give you an array of ids. Even if you just have one.
+
+== Frequently Asked Questions ==
+
+= What is a Google Analytics property ID? =
+It's the string looking like `UA-XXXXXXX-X` next to your website URL on https://analytics.google.com/analytics/web/
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial plugin release.
 
 == Installation ==
 
