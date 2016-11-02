@@ -30,6 +30,12 @@ If you need to pull the ids from the database, in any other context, you can use
 
 This plugin will always give you an array of ids. Even if you just have one.
 
+= Source code & contributions =
+Please feel free to contribute improvements, report bugs or suggest new features via the GitHub repo
+* [Github Repo](https://github.com/Ahrengot/multiple-google-analytics)
+* [Suggest improvements](https://github.com/Ahrengot/multiple-google-analytics/issues)
+* [Open a pull request](https://github.com/Ahrengot/multiple-google-analytics/pulls)
+
 == Frequently Asked Questions ==
 
 = What is a Google Analytics property ID? =
