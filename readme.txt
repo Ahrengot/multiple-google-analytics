@@ -1,6 +1,6 @@
-=== Multiple Google Analytics ===
+=== Multiple Google Analytics Trackers ===
 Contributors: Ahrengot
-Tags: analytics, Google Analytics, ecommerce tracking, ga, google, statistics, stats, tracking
+Tags: analytics, Google Analytics, google, statistics, stats, tracking
 Requires at least: 4.0
 Tested up to: 4.6.1
 Stable tag: 1.0.0
