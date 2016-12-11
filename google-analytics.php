@@ -27,8 +27,8 @@ class AhrGoogleAnalytics {
   }
 
   private function init() {
-    register_activation_hook( __FILE__, array($this, 'on_active_plugin') );
-    register_deactivation_hook( __FILE__, array($this, 'on_deactive_plugin') );
+    register_activation_hook( __FILE__, array($this, 'on_activate_plugin') );
+    register_deactivation_hook( __FILE__, array($this, 'on_deactivate_plugin') );
 
     add_action( 'admin_init', array($this, 'register_settings'), 10 );
     add_action( 'admin_menu', array($this, 'add_menu_item'), 10 );
