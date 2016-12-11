@@ -2,7 +2,7 @@
 Contributors: Ahrengot
 Tags: analytics, Google Analytics, google, statistics, stats, tracking
 Requires at least: 4.0
-Tested up to: 4.6.1
+Tested up to: 4.7.0
 Stable tag: 1.0.0
 License: GPL v3
 
@@ -44,6 +44,9 @@ It's the string looking like `UA-XXXXXXX-X` next to your website URL on https://
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+Fixes typos in plugin activation/deactivation callback functions
+
 = 1.0.0 =
 Initial plugin release.
 
@@ -59,6 +62,11 @@ Initial plugin release.
 2. Using multiple trackers and the custom hook for printing the script
 
 == Changelog ==
+
+= 1.0.1 =
+Release Date: December 11th, 2016
+
+Fixes typos in plugin activation/deactivation callback functions
 
 = 1.0.0 =
 
