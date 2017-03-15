@@ -47,12 +47,12 @@ class AhrGoogleAnalytics {
   public function on_activate_plugin() {
     // Set default ga script location
     if ( empty( get_option( self::OPTION_LOCATION ) ) ) {
-      update_option( self::OPTION_LOCATION, '', 'wp_footer' );
+      update_option( self::OPTION_LOCATION, 'wp_footer' );
     }
 
     // Set default value for analytics ids
     if ( empty( get_option( self::OPTION_IDS ) ) ) {
-      update_option( self::OPTION_IDS, '', array() );
+      update_option( self::OPTION_IDS, array() );
     }
   }
 

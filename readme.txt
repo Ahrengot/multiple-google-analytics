@@ -2,8 +2,8 @@
 Contributors: Ahrengot
 Tags: analytics, Google Analytics, google, statistics, stats, tracking
 Requires at least: 4.0
-Tested up to: 4.7.0
-Stable tag: 1.0.1
+Tested up to: 4.7.3
+Stable tag: 1.1.1
 License: GPL v3
 
 Add one or more Google Analytics trackers to your website.
@@ -44,6 +44,9 @@ It's the string looking like `UA-XXXXXXX-X` next to your website URL on https://
 
 == Upgrade Notice ==
 
+= 1.1.1 =
+Fixes a bug where default values weren’t set properly when first activating plugin
+
 = 1.0.1 =
 Fixes typos in plugin activation/deactivation callback functions
 
@@ -62,6 +65,11 @@ Initial plugin release.
 2. Using multiple trackers and the custom hook for printing the script
 
 == Changelog ==
+
+= 1.1.0 =
+Release Date: March 15th, 2016
+
+Fixes a bug where default values weren’t set properly when first activating plugin
 
 = 1.0.1 =
 Release Date: December 11th, 2016
