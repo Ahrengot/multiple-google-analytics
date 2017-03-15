@@ -42,6 +42,33 @@ Please feel free to contribute improvements, report bugs or suggest new features
 = What is a Google Analytics property ID? =
 It's the string looking like `UA-XXXXXXX-X` next to your website URL on https://analytics.google.com/analytics/web/
 
+
+= JavaScript: How do I track pageviews/events/etc. using multiple trackers =
+If you're building a JavaScript-based web app and manually need to track custom routes or events you can use the `ga.getAll()` method to get an array of registered trackers and then run the tracking logic for each tracker. 
+
+For example, this will track page views based on custom routes:
+
+    if ( typeof ga === 'function' && typeof ga.getAll === 'function' ) {
+      ga.getAll().forEach(tracker => {
+        tracker.set('page', *my-custom-route*); // Custom route e.g. '/my-page'
+        tracker.send('pageview');
+      })
+    }
+    
+And here's an example of tracking custom events:
+
+    if ( typeof ga === 'function' && typeof ga.getAll === 'function' ) {
+      ga.getAll().forEach(tracker => {
+        tracker.send('event', {
+          eventCategory: 'Search',
+          eventAction: 'Query',
+          eventLabel: *query*, // Your search query
+          eventValue: *matches.length* // Optionally, send the number of matches for the query
+        });
+      })
+    }
+
+
 == Upgrade Notice ==
 
 = 1.1.1 =
