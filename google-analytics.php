@@ -3,7 +3,7 @@
 Plugin Name: Multiple Google Analytics Trackers
 Plugin URI: https://github.com/Ahrengot/multiple-google-analytics
 Description: Minimal Google Analytics plugin that let's you set up multiple trackers and fully control when and where the analytics script is rendered.
-Version: 1.0.1
+Version: 1.1.1
 Author: Jens Ahrengot Boddum
 Author URI: http://ahrengot.com/
 Text Domain: multi-google-analytics
