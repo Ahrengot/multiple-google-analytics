@@ -93,7 +93,7 @@ Initial plugin release.
 
 == Changelog ==
 
-= 1.1.0 =
+= 1.1.1 =
 Release Date: March 15th, 2016
 
 Fixes a bug where default values weren’t set properly when first activating plugin
