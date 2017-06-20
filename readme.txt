@@ -2,7 +2,7 @@
 Contributors: Ahrengot
 Tags: analytics, Google Analytics, google, statistics, stats, tracking
 Requires at least: 4.0
-Tested up to: 4.7.3
+Tested up to: 4.8.0
 Stable tag: 1.1.1
 License: GPL v3
 
