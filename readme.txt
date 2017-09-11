@@ -2,7 +2,7 @@
 Contributors: Ahrengot
 Tags: analytics, Google Analytics, google, statistics, stats, tracking
 Requires at least: 4.0
-Tested up to: 4.8.0
+Tested up to: 4.8.1
 Stable tag: 1.1.1
 License: GPL v3
 
@@ -94,7 +94,7 @@ Initial plugin release.
 == Changelog ==
 
 = 1.1.1 =
-Release Date: March 15th, 2016
+Release Date: March 15th, 2017
 
 Fixes a bug where default values weren’t set properly when first activating plugin
 
