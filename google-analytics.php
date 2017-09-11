@@ -112,7 +112,7 @@ class AhrGoogleAnalytics {
     $properties = $this->get_posted_property_ids();
     if ( !empty($properties) ){
       foreach ($properties as $property_id) {
-        if (!preg_match( '/^UA-[0-9]{8}-[0-9]{1}$/', $property_id ) ) {
+        if (!preg_match( '/^UA-[0-9]{5,}-[0-9]{1}$/', $property_id ) ) {
           add_settings_error(self::OPTION_IDS, esc_attr('settings_updated'), __('Invalid format for property id. Format should be <code>UA-00000000-0</code>', 'multi-google-analytics'), 'error');
         }
         break;
